@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghrc.io/thangved/express0
+    ports:
+      - 3000:3000
